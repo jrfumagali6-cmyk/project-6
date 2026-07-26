@@ -63,7 +63,7 @@ if st.sidebar.button('▶️ Simulate'):
         Z = np.random.standard_normal(n_simulations)
         simulations[:, t] = simulations[:, t-1] * np.exp((mu - 0.5 * sigma**2) + sigma * Z)
     ### Note that a normal distribution was used to run the simulation, so if you understand that another distribution is better than normal for your problem, just do it.
-    
+    ### However, if you change the distribution, the model is no longer GBM, because GBM only works with a normal distribution.
     ### Displays the simulation statistics.
     st.markdown('''
         <h6 style="font-size: 19px; text-align: center; margin-top: 15px">
