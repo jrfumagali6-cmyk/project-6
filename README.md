@@ -10,7 +10,7 @@ So, this process is very useful to find the possible future path of the asset pr
 
 <img src="images61/project 6 parte 2.png" width="900">
 
-<img src="images62/project 6 parte 3.png" width="900">
+<img src="images61/project 6 parte 3.png" width="900">
 
 I thought it was better to split the project into three pictures, where each picture can capture all the content in a sequence. In my personal opinion, this way is easier for people to understand the project. 
 
